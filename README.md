@@ -6,9 +6,7 @@ Doc Manager for Dynatrace is an independent app for managing standard and custom
 
 ## Video demo
 
-[![Watch the Doc Manager for Dynatrace teaser](assets/screenshots/overview.png)](assets/video/doc-manager-teaser.mp4)
-
-Watch the [28-second Doc Manager for Dynatrace teaser](assets/video/doc-manager-teaser.mp4) for a quick tour of the main workflow.
+![Doc Manager for Dynatrace teaser](assets/video/doc-manager-teaser.gif)
 
 ## App walkthrough
 
