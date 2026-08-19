@@ -1,14 +1,14 @@
-# Dynatrace Document Manager
+# Doc Manager for Dynatrace
 
-Dynatrace Document Manager is an app for managing standard and custom documents in Dynatrace.
+Doc Manager for Dynatrace is an independent app for managing standard and custom documents in Dynatrace.
 
-![Document Manager overview](assets/screenshots/overview.png)
+![Doc Manager for Dynatrace overview](assets/screenshots/overview.png)
 
 ## Video demo
 
-[![Watch the Document Manager teaser](assets/screenshots/overview.png)](assets/video/document-manager-teaser.mp4)
+[![Watch the Doc Manager for Dynatrace teaser](assets/screenshots/overview.png)](assets/video/doc-manager-teaser.mp4)
 
-Watch the [28-second Document Manager teaser](assets/video/document-manager-teaser.mp4) for a quick tour of the main workflow.
+Watch the [28-second Doc Manager for Dynatrace teaser](assets/video/doc-manager-teaser.mp4) for a quick tour of the main workflow.
 
 ## App walkthrough
 
@@ -36,13 +36,25 @@ The registry provides read-only metadata records captured when documents are del
 
 ![Deleted Document Registry](assets/screenshots/deleted-document-registry.png)
 
-## Project status
+## Release overview
 
-This repository is being prepared for its first public source release. The application source and installation package are not yet available in the repository.
+| Release | Highlights |
+| --- | --- |
+| **v1.2.5** — Latest | Introduces consistent **Doc Manager** naming throughout the app and its supporting policies and workflow template. |
+| **v1.2.4** | Adds the Deleted Document Registry, document lookup by name or ID, and improved document visibility and audit activity. |
+| **v1.1.0** | Adds a workflow action for retrieving document content so documents can be used in Dynatrace workflows. |
+| **v1.0.0** | Introduces the core experience for creating, viewing, updating, sharing, recovering, and auditing documents. |
 
-## Documentation
+## About and contact
 
-Public usage, configuration, and development instructions will accompany the first source release so that every documented command can be tested against the published code.
+Doc Manager for Dynatrace is an independent product developed by [Keep IT Easy B.V.](https://www.keepiteasy.nl/) and is not an official Dynatrace product.
+
+For product details, licensing, or other enquiries:
+
+- Website: [keepiteasy.nl](https://www.keepiteasy.nl/)
+- Contact: [keepiteasy.nl/contact](https://www.keepiteasy.nl/contact)
+- Email: [info@keepiteasy.nl](mailto:info@keepiteasy.nl)
+- LinkedIn: [Keep IT Easy](https://www.linkedin.com/company/keepiteasy)
 
 ## License
 
