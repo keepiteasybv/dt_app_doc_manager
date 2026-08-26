@@ -18,9 +18,17 @@ Create a document by entering its content directly or uploading a file.
 
 ### Manage documents
 
-Search and filter documents available in the environment. Administrative access can be enabled for users with the required permissions.
+Search and filter documents available in the environment. View and update content, optionally format JSON, and open standard documents in their native Dynatrace view.
+
+Doc Manager retains a snapshot before content updates made in the app. Available snapshots can be compared side by side, restored, downloaded, or permanently deleted. Administrative access can be enabled for users with the required permissions.
 
 ![Manage documents](assets/screenshots/manage-documents.png)
+
+### Compare and restore document versions
+
+Review retained snapshots, compare two versions side by side, and restore or download the version you need. Snapshots that are no longer required can be permanently deleted.
+
+![Document version history](assets/screenshots/version-history.png)
 
 ### Review document activity
 
@@ -38,7 +46,8 @@ The registry provides read-only metadata records captured when documents are del
 
 | Release | Highlights |
 | --- | --- |
-| **v1.2.5** — Latest | Introduces consistent **Doc Manager** naming throughout the app and its supporting policies and workflow template. |
+| **v1.3.0** — Latest | Adds retained document version history with side-by-side comparison, restore, download, and delete actions; automatic snapshots before content updates; optional JSON formatting; and direct links to standard documents in Dynatrace. |
+| **v1.2.5** | Introduces consistent **Doc Manager** naming throughout the app and its supporting policies and workflow template. |
 | **v1.2.4** | Adds the Deleted Document Registry, document lookup by name or ID, and improved document visibility and audit activity. |
 | **v1.1.0** | Adds a workflow action for retrieving document content so documents can be used in Dynatrace workflows. |
 | **v1.0.0** | Introduces the core experience for creating, viewing, updating, sharing, recovering, and auditing documents. |
